@@ -10,6 +10,6 @@ b = int(input('Enter the index b: '))
 c = int(input('Enter the index c: '))
 d = int(input('Enter the index d: '))
 
-print(sample[a:b+1] + sample[c:d+1])
+print(sample[a:b+1] + ' ' + sample[c:d+1])
 
 
