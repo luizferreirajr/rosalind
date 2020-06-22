@@ -5,10 +5,10 @@ Then it will search the slice of this string from indices a through b and c thro
 
 sample = input('Enter a new string: ')
 
-a = input('Enter the index a: ')
-b = input('Enter the index b: ')
-c = input('Enter the index c: ')
-d = input('Enter the index d: ')
+a = int(input('Enter the index a: '))
+b = int(input('Enter the index b: '))
+c = int(input('Enter the index c: '))
+d = int(input('Enter the index d: '))
 
 print(sample[a:b+1] + sample[c:d+1])
 
