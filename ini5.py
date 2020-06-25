@@ -11,3 +11,6 @@ for i in f:
     if index % 2 == 1:
         s.write(str(i))
     index += 1
+
+f.close()
+s.close()
