@@ -12,15 +12,7 @@ dna = input('Input your DNA string: ')
 dna_index = {'A': 0, 'C': 0, 'G': 0, 'T': 0}
 
 for i in dna:
-    if i == 'A':
-        dna_index['A'] = dna_index.get(i, 0) + 1
-    elif i == 'C':
-        dna_index['C'] = dna_index.get(i, 0) + 1
-    elif i == 'G':
-        dna_index['G'] = dna_index.get(i, 0) + 1
-    elif i == 'T':
-        dna_index['T'] = dna_index.get(i, 0) + 1
-
+    dna_index[i] = dna_index[i] + 1
 
 """
 Used the * at the beginning of dna_index to remove the dict structure
